@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------------
 ** main.c
-** <file description>
+** USB UART Communication
 **
 ** Author: Navid Shahrestani
 ** -------------------------------------------------------------------------*/
@@ -16,7 +16,7 @@ int main (void){
         init_watchdog();
         init_leds();
         init_pushbutton();
-  
+
         while(1){
                 if ((P1IN & BUTTON) == BUTTON){
                         P1OUT |= 0x01;                  // LED0 on

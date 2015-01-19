@@ -16,7 +16,7 @@ fi
 
 
 echo "Compiling..."
-cd $1
+cd src/$1
 make clean
 make
 echo "Starting mspdebug..."
