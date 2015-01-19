@@ -1,2 +1,5 @@
 datasheets/
-msp430/obj
+msp430/obj/*
+*.o
+*.elf
+*.hex
